@@ -266,9 +266,9 @@ class Plugin {
 
 }
 
-function scr-cke-purchase() {
+function scr_cke_purchase() {
     return Plugin::instance();
 }
 
 // Initialize the class instance only once
-scr-cke-purchase();
+scr_cke_purchase();
