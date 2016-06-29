@@ -6,7 +6,7 @@
  * Version:     1.0
  * Author:      SCR
  * Author URI:  http://www.scr.se
- * Text Domain: scrckepurchase
+ * Text Domain: scr-cke-purchase
  * Domain Path: /languages/
  *
  * **************************************************************************
@@ -166,7 +166,7 @@ class Plugin {
 	 */
 	public function languages() {
 
-		load_plugin_textdomain( 'scrckepurchase', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+		load_plugin_textdomain( 'scr-cke-purchase', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
 	}
 
@@ -266,9 +266,9 @@ class Plugin {
 
 }
 
-function scrckepurchase() {
+function scr-cke-purchase() {
     return Plugin::instance();
 }
 
 // Initialize the class instance only once
-scrckepurchase();
+scr-cke-purchase();

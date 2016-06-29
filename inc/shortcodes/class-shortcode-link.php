@@ -44,13 +44,13 @@ class Shortcode_Link {
 		// If we don't have a language set, map the current site language.
 		if ( ! $atts['lang'] ) {
 
-			$language = scrckepurchase()->map_languages();
+			$language = scr-cke-purchase()->map_languages();
 
 			$atts['lang'] = $language;
 		}
 
 		// Get the organization ID.
-		$org_id = scrckepurchase()->get_the_organization_id();
+		$org_id = scr-cke-purchase()->get_the_organization_id();
 
 		ob_start(); ?>
 
@@ -58,7 +58,7 @@ class Shortcode_Link {
 		<?php if ( $atts['text'] ) : ?>
 			<?php echo $atts['text']; ?>
 		<?php elseif ( $atts['banner'] ) : ?>
-			<img src="<?php echo scrckepurchase()->get_plugin_url(); ?>/assets/images/<?php echo $atts['lang']; ?>/banner-<?php echo $atts['banner']; ?>.jpg" alt="">
+			<img src="<?php echo scr-cke-purchase()->get_plugin_url(); ?>/assets/images/<?php echo $atts['lang']; ?>/banner-<?php echo $atts['banner']; ?>.jpg" alt="">
 		<?php endif; ?>
 		</a>
 		<?php

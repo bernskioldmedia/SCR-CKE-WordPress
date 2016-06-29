@@ -2,7 +2,7 @@
 Contributors: Erik Bernskiold
 Tags: scr, camping key europe, camping key, swedish camping
 Requires at least: 4.0
-Tested up to: 4.5
+Tested up to: 4.6
 Stable tag: trunk
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -48,5 +48,6 @@ You need to enter your organization ID that you get from SCR in the settings (Se
 Your organization ID is a text string which your contact person on SCR will provide you when setting you up for the program. It is usually a variant on your campsite name.
 
 == Changelog ==
+
 = Version 1.0 =
 Initial version.
